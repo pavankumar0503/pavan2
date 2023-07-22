@@ -1,0 +1,56 @@
+body{
+    background-color:black;
+color:#0ef;
+}
+.pi{
+    border:1px solid yellow;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    font-family: 'Pacifico', cursive;;
+}
+
+.bgimage{
+    height:100vh;
+    background:url(bannerimage.jpg);
+    background-size: cover;
+    position: relative;
+}
+.bgtext{
+    text-align:center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:rgb(5, 91, 219);
+
+}
+.bgtitle{
+    font-size: 4rem;
+
+}
+.bgdesc{
+    font-size: 2rem;
+
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color:gold;
+    border-radius: 25px;
+}
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 3px solid rgba(254, 4, 46, 0.781);
+}
+.card-img-top{
+    height: 150px;
+}
+
